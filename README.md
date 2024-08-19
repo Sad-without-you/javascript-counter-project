@@ -22,4 +22,4 @@ This is a simple JavaScript project that implements a basic counter. The counter
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/javascript-counter-project.git
+   git clone https://github.com/Sad-without-you/javascript-counter-project.git
