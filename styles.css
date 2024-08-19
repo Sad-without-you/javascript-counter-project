@@ -1,0 +1,48 @@
+/* Style for the count label */
+#countLabel {
+    display: block;
+    text-align: center;
+    font-size: 6em; 
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px; 
+    color: black; 
+    transition: color 0.25s; 
+}
+
+/* Center the button container */
+#btn {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+/* Style for the buttons */
+.buttons {
+    padding: 15px 30px; 
+    font-size: 1.5em;
+    color: #fff; 
+    background-color: #60f2ff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    transition: background-color 0.25s, transform 0.25s; 
+    margin: 5px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Hover effect for buttons */
+.buttons:hover {
+    background-color: #54b1df; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+/* Focus effect for accessibility */
+.buttons:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(96, 242, 255, 0.8); /* Glow effect when focused */
+}
+
+/* Additional style for active button state */
+.buttons:active {
+    transform: scale(0.95); /* Slightly reduce size when button is pressed */
+    background-color: #54b1df; /* Maintain hover color on active */
+}
